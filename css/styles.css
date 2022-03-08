@@ -4,19 +4,20 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-color:  #393E46;
+  color: #393E46;
 }
 
 a {
   color: #11999E;
   display: inline-block;
-  margin: 10px 20px;
+  margin: 0.625rem 1.25rem;
   text-decoration: none;
 }
 
 a:hover {
   color: #EAF6F6;
 }
+
 div {
   /* background-color: #00ADB5; */
   /* background-color: #393E46; */
@@ -30,7 +31,7 @@ h1 {
   font-weight: 700;
   font-size: 5.625rem;
   line-height: 2;
-  margin: 50px auto 0 auto;
+  margin: 3.125rem auto 0 auto;
 }
 
 h2 {
@@ -49,12 +50,13 @@ hr {
   color: brown;
   border-style: dotted none none;
   border-top-width: 1.4ex;
-  border-width: 5px;
+  border-width: 0.3125rem;
   width: 4%;
-  margin: 8px auto 8px auto;
+  margin: 0.5rem auto 0.5rem auto;
 }
+
 p {
-    line-height: 2;
+  line-height: 2;
 }
 
 .top-container {
@@ -62,7 +64,7 @@ p {
   /* background-color: #222831; */
   background-color: #393E46;
   position: relative;
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .pro {
@@ -71,7 +73,7 @@ p {
 
 .top-cloud {
   position: relative;
-  left: 420px;
+  left: 26.25rem;
   top: auto;
 }
 
@@ -80,31 +82,31 @@ p {
   left: auto;
   bottom: 300px; */
   position: relative;
-    right: 500px;
-    top: 300px;
+  right: 31.25rem;
+  top: 18.75rem;
 }
 
 .html {
-  width: 125px;
+  width: 7.8125rem;
   float: left;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 .css {
-  width: 125px;
+  width: 7.8125rem;
   float: right;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 .js {
-  width: 125px;
+  width: 7.8125rem;
   float: left;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 .skill-row {
   width: 50%;
-  margin: 80px auto 100px auto;
+  margin: 5rem auto 6.25rem auto;
   text-align: left;
 }
 
@@ -114,23 +116,22 @@ p {
 
 .profile {
   width: 30%;
-  margin: 100px auto 100px auto;
+  margin: 6.25rem auto 6.25rem auto;
   text-align: center;
 }
 
 .skills {
-  margin: 100px auto 100px auto;
+  margin: 6.25rem auto 6.25rem auto;
 }
 
 .contact-me {
   width: 30%;
-  margin: 100px auto 100px auto;
+  margin: 6.25rem auto 6.25rem auto;
   text-align: center;
-
 }
 
 .contact-met-p {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .btn {
@@ -146,7 +147,7 @@ p {
   font-family: Georgia;
   color: #EAF6F6;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 0.625rem 20px 0.625rem 20px;
   text-decoration: none;
 }
 
@@ -162,14 +163,66 @@ p {
 
 .bottom-container {
   background-color: #393E46;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   padding-bottom: 0;
   text-align: center;
 }
 
 .trademark {
   margin: 0;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   color: #EAF6F6;
   font-size: 0.75rem
+}
+
+@media only screen and (max-width: 819px) {
+
+/* Top section   */
+h1 {
+  line-height: 1.6;
+  padding: 0 1%;
+}
+.top-container{
+  padding-top: 5rem;
+}
+.top-cloud {
+  position: absolute;
+  left: 70%;
+  width: 15%;
+}
+.bottom-cloud {
+  position: absolute;
+  right: 84%;
+  width: 15%;
+}
+  .mountain {
+    width: 100%;
+    position: relative;
+  }
+/* Middle Section */
+
+.profile {
+  width: 90%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: center;
+}
+.profile-pic {
+  display: block;
+  margin: 0 auto 3rem auto;
+  width: 35%;
+}
+
+/* Skills */
+.skill-row {
+  width: 90%;
+  margin: 5rem auto 6.25rem auto;
+  text-align: left;
+}
+
+/* Bottom Section */
+.contact-me {
+  width: 90%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: center;
+}
 }
