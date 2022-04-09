@@ -59,6 +59,28 @@ p {
   line-height: 2;
 }
 
+/* Navigation Bar*/
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  width: 7%;
+  height: auto;
+  float: left;
+}
+
 .top-container {
   /* background-color: #00ADB5; */
   /* background-color: #222831; */
@@ -175,54 +197,74 @@ p {
   font-size: 0.75rem
 }
 
-@media only screen and (max-width: 819px) {
+@media only screen and (max-width: 990px) {
 
-/* Top section   */
-h1 {
-  line-height: 1.6;
-  padding: 0 1%;
-}
-.top-container{
-  padding-top: 5rem;
-}
-.top-cloud {
-  position: absolute;
-  left: 70%;
-  width: 15%;
-}
-.bottom-cloud {
-  position: absolute;
-  right: 84%;
-  width: 15%;
-}
+  /* Top section   */
+  .navbar {
+    text-align: right;
+  }
+
+  .logo {
+    width: 15%;
+    position: static;
+    float: inherit;
+  }
+
+  button {
+  text-align: inherit;  
+  }
+
+  h1 {
+    line-height: 1.6;
+    padding: 0 1%;
+  }
+
+  .top-container {
+    padding-top: 5rem;
+  }
+
+  .top-cloud {
+    position: absolute;
+    left: 70%;
+    width: 15%;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    right: 84%;
+    width: 15%;
+  }
+
   .mountain {
     width: 100%;
     position: relative;
   }
-/* Middle Section */
 
-.profile {
-  width: 90%;
-  margin: 6.25rem auto 6.25rem auto;
-  text-align: center;
-}
-.profile-pic {
-  display: block;
-  margin: 0 auto 3rem auto;
-  width: 35%;
-}
+  /* Middle Section */
 
-/* Skills */
-.skill-row {
-  width: 90%;
-  margin: 5rem auto 6.25rem auto;
-  text-align: left;
-}
+  .profile {
+    width: 90%;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: center;
+  }
 
-/* Bottom Section */
-.contact-me {
-  width: 90%;
-  margin: 6.25rem auto 6.25rem auto;
-  text-align: center;
-}
+  .profile-pic {
+    display: block;
+    margin: 0 auto 3rem auto;
+    width: 35%;
+  }
+
+  /* Skills */
+  .skill-row {
+    width: 90%;
+    margin: 5rem auto 6.25rem auto;
+    text-align: left;
+  }
+
+  /* Bottom Section */
+  .contact-me {
+    width: 90%;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: center;
+  }
 }
