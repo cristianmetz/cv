@@ -22,7 +22,7 @@ div {
   /* background-color: #00ADB5; */
   /* background-color: #393E46; */
   /* background-color: #EEEEEE; */
-  background-color: #EAF6F6;
+  /* background-color: #EAF6F6; */
 }
 
 h1 {
@@ -59,7 +59,15 @@ p {
   line-height: 2;
 }
 
+.colored-section {
+  background-color: #393E46;
+  color: rgba(255,255,255,.55);
+}
 /* Navigation Bar*/
+
+#navbarTogglerDemo02 {
+  background-color: #393E46;
+}
 
 .nav-item {
   padding: 0 18px;
@@ -146,6 +154,13 @@ p {
   margin: 6.25rem auto 6.25rem auto;
 }
 
+/*PORTFOLIO SECTION*/
+div#portfolio {
+margin: 0 auto 0 auto;
+background-color: #393E46;
+}
+
+
 .contact-me {
   width: 30%;
   margin: 6.25rem auto 6.25rem auto;
@@ -197,6 +212,10 @@ p {
   font-size: 0.75rem
 }
 
+svg.reverse {
+  transform: rotate(180deg);
+}
+
 @media only screen and (max-width: 990px) {
 
   /* Top section   */
@@ -211,7 +230,7 @@ p {
   }
 
   button {
-  text-align: inherit;  
+    text-align: inherit;
   }
 
   h1 {
