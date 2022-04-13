@@ -165,6 +165,9 @@ div#portfolio {
   padding: 100px 25%;
 }
 
+div.rotated{
+  transform: rotate(180deg)
+}
 /*CONTACT SECTION*/
 .contact-me {
   width: 30%;
