@@ -165,9 +165,10 @@ div#portfolio {
   padding: 100px 25%;
 }
 
-div.rotated{
+svg.rotated {
   transform: rotate(180deg)
 }
+
 /*CONTACT SECTION*/
 .contact-me {
   width: 30%;
@@ -209,6 +210,7 @@ div.rotated{
 .bottom-container {
   background-color: #393E46;
   padding-top: 3.125rem;
+
   padding-bottom: 0;
   text-align: center;
 }
