@@ -1,3 +1,11 @@
+/* Colors 
+#00ADB5
+#393E46
+#EEEEEE
+#EAF6F6; 
+#222831
+*/
+
 body {
   background-color: #EAF6F6;
   margin: 0;
@@ -16,13 +24,6 @@ a {
 
 a:hover {
   color: #EAF6F6;
-}
-
-div {
-  /* background-color: #00ADB5; */
-  /* background-color: #393E46; */
-  /* background-color: #EEEEEE; */
-  /* background-color: #EAF6F6; */
 }
 
 h1 {
@@ -90,8 +91,6 @@ img.logo {
 }
 
 .top-container {
-  /* background-color: #00ADB5; */
-  /* background-color: #222831; */
   background-color: #393E46;
   position: relative;
   padding-top: 6.25rem;
