@@ -66,12 +66,17 @@ p {
 
 /* Navigation Bar*/
 
+.navbar {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
 #navbarTogglerDemo02 {
   background-color: #393E46;
 }
 
-.nav-item {
-  padding: 0 18px;
+.navbar-toggler {
+  margin-right: 19px;
 }
 
 .nav-link {
@@ -79,14 +84,8 @@ p {
   font-weight: normal;
 }
 
-.navbar-brand {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.logo {
-  width: 7%;
-  height: auto;
+img.logo {
+  width: 3.2rem;
   float: left;
 }
 
@@ -224,10 +223,9 @@ svg.reverse {
     text-align: right;
   }
 
-  .logo {
-    width: 15%;
-    position: static;
-    float: inherit;
+  img.logo {
+    width: 7%;
+    float: left;
   }
 
   button {
