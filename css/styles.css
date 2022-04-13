@@ -1,3 +1,11 @@
+/* Colors 
+#00ADB5
+#393E46
+#EEEEEE
+#EAF6F6; 
+#222831
+*/
+
 body {
   background-color: #EAF6F6;
   margin: 0;
@@ -16,13 +24,6 @@ a {
 
 a:hover {
   color: #EAF6F6;
-}
-
-div {
-  /* background-color: #00ADB5; */
-  /* background-color: #393E46; */
-  /* background-color: #EEEEEE; */
-  background-color: #EAF6F6;
 }
 
 h1 {
@@ -59,9 +60,37 @@ p {
   line-height: 2;
 }
 
+.colored-section {
+  background-color: #393E46;
+  color: rgba(255, 255, 255, .55);
+}
+
+/* Navigation Bar*/
+
+.navbar {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+#navbarTogglerDemo02 {
+  background-color: #393E46;
+}
+
+.navbar-toggler {
+  margin-right: 19px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+img.logo {
+  width: 3.2rem;
+  float: left;
+}
+
 .top-container {
-  /* background-color: #00ADB5; */
-  /* background-color: #222831; */
   background-color: #393E46;
   position: relative;
   padding-top: 6.25rem;
@@ -124,6 +153,19 @@ p {
   margin: 6.25rem auto 6.25rem auto;
 }
 
+/*PORTFOLIO SECTION*/
+
+h2.portfolio-header {
+  padding-bottom: 60px;
+}
+
+div#portfolio {
+  margin: 0 auto 0 auto;
+  background-color: #393E46;
+  padding: 100px 25%;
+}
+
+/*CONTACT SECTION*/
 .contact-me {
   width: 30%;
   margin: 6.25rem auto 6.25rem auto;
@@ -175,54 +217,85 @@ p {
   font-size: 0.75rem
 }
 
-@media only screen and (max-width: 819px) {
+svg.reverse {
+  transform: rotate(180deg);
+}
 
-/* Top section   */
-h1 {
-  line-height: 1.6;
-  padding: 0 1%;
-}
-.top-container{
-  padding-top: 5rem;
-}
-.top-cloud {
-  position: absolute;
-  left: 70%;
-  width: 15%;
-}
-.bottom-cloud {
-  position: absolute;
-  right: 84%;
-  width: 15%;
-}
+@media only screen and (max-width: 990px) {
+
+  /* Top section   */
+  .navbar {
+    text-align: right;
+  }
+
+  img.logo {
+    width: 7%;
+    float: left;
+  }
+
+  button {
+    text-align: inherit;
+  }
+
+  h1 {
+    line-height: 1.6;
+    padding: 0 1%;
+  }
+
+  .top-container {
+    padding-top: 5rem;
+  }
+
+  .top-cloud {
+    position: absolute;
+    left: 70%;
+    width: 15%;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    right: 84%;
+    width: 15%;
+  }
+
   .mountain {
     width: 100%;
     position: relative;
   }
-/* Middle Section */
 
-.profile {
-  width: 90%;
-  margin: 6.25rem auto 6.25rem auto;
-  text-align: center;
-}
-.profile-pic {
-  display: block;
-  margin: 0 auto 3rem auto;
-  width: 35%;
-}
+  /* Middle Section */
 
-/* Skills */
-.skill-row {
-  width: 90%;
-  margin: 5rem auto 6.25rem auto;
-  text-align: left;
-}
+  .profile {
+    width: 90%;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: center;
+  }
 
-/* Bottom Section */
-.contact-me {
-  width: 90%;
-  margin: 6.25rem auto 6.25rem auto;
-  text-align: center;
-}
+  .profile-pic {
+    display: block;
+    margin: 0 auto 3rem auto;
+    width: 35%;
+  }
+
+  /* Skills */
+  .skill-row {
+    width: 90%;
+    margin: 5rem auto 6.25rem auto;
+    text-align: left;
+  }
+
+  /*Profile Section*/
+  div#portfolio {
+    margin: 0 auto 0 auto;
+    background-color: #393E46;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /* Bottom Section */
+  .contact-me {
+    width: 90%;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: center;
+  }
 }
