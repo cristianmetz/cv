@@ -90,10 +90,15 @@ img.logo {
   float: left;
 }
 
+img.mountain {
+  display: none;
+  visibility: hidden;
+}
 .top-container {
   background-color: #393E46;
   position: relative;
-  padding-top: 6.25rem;
+  padding-top: 3.25rem;
+  padding-bottom: 6.25rem;
 }
 
 .pro {
