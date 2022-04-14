@@ -42,6 +42,10 @@ h2 {
   font-weight: bolder;
 }
 
+h2.white-header, a {
+  color: #bec0c2;
+}
+
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
