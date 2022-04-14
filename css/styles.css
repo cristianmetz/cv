@@ -31,8 +31,8 @@ h1 {
   font-family: 'Euphoria Script', cursive;
   font-weight: 700;
   font-size: 5.625rem;
-  line-height: 2;
-  margin: 3.125rem auto 0 auto;
+  line-height: 1.3;
+  margin: 3.125rem auto 1.5rem auto;
 }
 
 h2 {
@@ -261,7 +261,7 @@ svg.reverse {
   }
 
   h1 {
-    line-height: 1.6;
+    line-height: 1.2;
     padding: 0 1%;
   }
 
