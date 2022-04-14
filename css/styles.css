@@ -48,7 +48,7 @@ h3 {
 }
 
 hr {
-  color: brown;
+  color: black;
   border-style: dotted none none;
   border-top-width: 1.4ex;
   border-width: 0.3125rem;
@@ -277,7 +277,8 @@ svg.reverse {
 
   .bottom-cloud {
     position: absolute;
-    right: 84%;
+    top: 85%;
+    right: 80%;
     width: 15%;
   }
 
