@@ -155,14 +155,14 @@ img.logo {
 
 /*PORTFOLIO SECTION*/
 
-h2.portfolio-header {
+/* h2.portfolio-header {
   padding-bottom: 60px;
-}
+} */
 
 div#portfolio {
   margin: 0 auto 0 auto;
   background-color: #393E46;
-  padding: 100px 25%;
+  padding: 0 25%;
 }
 
 svg.rotated {
