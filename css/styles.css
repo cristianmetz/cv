@@ -185,7 +185,7 @@ svg.rotated {
 
 /*CONTACT SECTION*/
 .contact-me {
-  width: 30%;
+  width: 75%;
   margin: 6.25rem auto 6.25rem auto;
   text-align: center;
 }
@@ -194,6 +194,9 @@ svg.rotated {
   margin-bottom: 3.125rem;
 }
 
+.form-group {
+  padding-bottom: 0.5rem;
+}
 .btn {
   background: #406061;
   background-image: -webkit-linear-gradient(top, #406061, #11999e);
