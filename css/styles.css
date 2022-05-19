@@ -233,6 +233,9 @@ svg.rotated {
   text-align: center;
 }
 
+div.form-button {
+  padding-top: 1rem;
+}
 .devicon-linkedin-plain,
 .devicon-github-original,
 .devicon-chrome-plain {
