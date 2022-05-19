@@ -196,6 +196,8 @@ svg.rotated {
 
 .form-group {
   padding-bottom: 0.5rem;
+  box-shadow: 5px 5px 50px lightblue;
+  border-radius: .4rem;
 }
 .btn {
   background: #406061;
