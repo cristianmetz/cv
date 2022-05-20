@@ -169,14 +169,19 @@ img.profile-pic{
 
 /*PORTFOLIO SECTION*/
 
-/* h2.portfolio-header {
-  padding-bottom: 60px;
-} */
+h2.portfolio-header {
+  margin: 2.25rem 0 3.25rem 0;
+  width: 100%;
+}
 
 div#portfolio {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   background-color: #393E46;
-  padding: 0 25%;
+  padding: 0 25% 2.25rem 25%;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 svg.rotated {
