@@ -170,7 +170,8 @@ img.profile-pic{
 /*PORTFOLIO SECTION*/
 
 h2.portfolio-header {
-  margin: 2.25rem 0 3.25rem 0;
+  margin: 0 auto;
+  padding-bottom: 2.25rem;
   width: 100%;
 }
 
