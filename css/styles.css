@@ -53,12 +53,13 @@ h3 {
 }
 
 hr {
-  color: black;
-  border-style: dotted none none;
-  border-top-width: 1.4ex;
-  border-width: 0.3125rem;
-  width: 4%;
+  border-style: none;
+  border-top-style: dotted;
+  color: #393E46;
+  border-width: 5px;
+  width: 5%;
   margin: 0.5rem auto 0.5rem auto;
+  background-color: #EAF6F6;
 }
 
 p {
