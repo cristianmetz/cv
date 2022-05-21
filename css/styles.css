@@ -44,6 +44,7 @@ h2 {
 
 h2.white-header, a {
   color: #bec0c2;
+  margin: 0 1rem;
 }
 
 h3 {
@@ -259,7 +260,7 @@ svg.reverse {
   transform: rotate(180deg);
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
 
   /* Top section   */
 
@@ -270,7 +271,7 @@ svg.reverse {
 
 
   img.logo {
-    width: 9%;
+    width: 6%;
     float: left;
   }
 
@@ -281,7 +282,7 @@ svg.reverse {
   h1 {
     line-height: 1.2;
     padding: 0 1%;
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   h2.white-header {
@@ -293,21 +294,22 @@ svg.reverse {
 
   .top-cloud {
     position: absolute;
-    left: 70%;
-    width: 15%;
+    left: 77%;
+    width: 10%;
+    top: 7%;
   }
 
   .bottom-cloud {
     position: absolute;
     top: 85%;
     right: 80%;
-    width: 15%;
+    width: 10%;
   }
 
-  .mountain {
+  /* .mountain {
     width: 100%;
     position: relative;
-  }
+  } */
 
   /* Middle Section */
 
@@ -320,7 +322,7 @@ svg.reverse {
   .profile-pic {
     display: block;
     margin: 0 auto 3rem auto;
-    width: 35%;
+    width: 25%;
   }
 
   div#portfolio {
