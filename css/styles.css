@@ -72,9 +72,8 @@ p {
 
 /* Navigation Bar*/
 
-.navbar {
-  padding-left: 35px;
-  padding-right: 35px;
+nav {
+  margin: 0 25%;
 }
 
 #navbarTogglerDemo02 {
@@ -207,31 +206,33 @@ svg.rotated {
   border-radius: .4rem;
 }
 .btn {
-  background: #406061;
-  background-image: -webkit-linear-gradient(top, #406061, #11999e);
-  background-image: -moz-linear-gradient(top, #406061, #11999e);
-  background-image: -ms-linear-gradient(top, #406061, #11999e);
-  background-image: -o-linear-gradient(top, #406061, #11999e);
-  background-image: linear-gradient(to bottom, #406061, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Georgia;
-  color: #EAF6F6;
-  font-size: 20px;
-  padding: 0.625rem 20px 0.625rem 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #313837);
-  background-image: -moz-linear-gradient(top, #30e3cb, #313837);
-  background-image: -ms-linear-gradient(top, #30e3cb, #313837);
-  background-image: -o-linear-gradient(top, #30e3cb, #313837);
-  background-image: linear-gradient(to bottom, #30e3cb, #313837);
-  text-decoration: none;
-}
+    background: #406061;
+    background-image: -webkit-linear-gradient(top, #406061, #393E46);
+    background-image: -moz-linear-gradient(top, #406061, #393E46);
+    background-image: -ms-linear-gradient(top, #406061, #393E46);
+    background-image: -o-linear-gradient(top, #406061, #393E46);
+    background-image: linear-gradient(to bottom, #406061, #393E46);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Montserrat, sans-serif;
+    color: #EAF6F6;
+    font-size: 14px;
+    padding: 0.625rem 20px;
+    text-decoration: none;
+  
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #313837);
+    background-image: -moz-linear-gradient(top, #30e3cb, #313837);
+    background-image: -ms-linear-gradient(top, #30e3cb, #313837);
+    background-image: -o-linear-gradient(top, #30e3cb, #313837);
+    background-image: linear-gradient(to bottom, #30e3cb, #313837);
+    text-decoration: none;
+    font-weight: bold;
+  }
 
 .bottom-container {
   background-color: #393E46;
@@ -265,7 +266,7 @@ svg.reverse {
   /* Top section   */
 
   .navbar {
-    padding: 15px 35px 0 35px;
+    margin: auto 5%;
     text-align: right;
   }
 
@@ -273,6 +274,7 @@ svg.reverse {
   img.logo {
     width: 6%;
     float: left;
+  
   }
 
   button {
